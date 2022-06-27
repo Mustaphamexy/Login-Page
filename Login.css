@@ -1,0 +1,102 @@
+
+
+.Login {
+    width: 430px;
+    height: 580px;
+    border-radius: 40px;
+    padding: 60px 35px 35px 35px;
+    color: rgb(90, 101, 111);
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #cbced1;
+    margin: auto;
+  }
+  .Image {
+    width: 7em;
+    height: 7em;
+    background: url("logo.png");
+    border-radius: 70%;
+    padding-top: 40px;
+    padding: 0 1em;
+    margin: 0 auto;
+  
+  }
+
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+  }
+
+.username,
+.password {
+  margin-bottom: 30px;
+  font-size: 10px;
+  box-shadow: 0px 0px 2px #ffffff, 0px 0px 0px 5px #dacef0, 8px 8px 15px #ffffff,
+  -8px -8px 15px rgb(255, 255, 255);
+  cursor: none;
+  margin-left: 40px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.username:hover, .password:hover{
+  border-color: #064eeb;
+}
+
+.sign-in {
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 80%;
+    font-size: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    background: #064eeb;
+    transition: all 0.5s;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+.CNA {
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 80%;
+  font-size: 10px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background: #064eeb;
+  transition: all 0.5s;
+margin-left: 40px;
+}
+.link {
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 15px;
+  }
+
+  .link a {
+    text-decoration: none;
+    color: rgba(3, 11, 105, 0.925);
+    font-size: 15px;
+   
+  }
+
+  .fields {
+    padding: 75px 10px 10px 10px;
+    width: 80%;
+  }
+  .fields input {
+    border: 25px;
+    background: #fff;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    padding: 20px 10px 20px 5px;
+  }
